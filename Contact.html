@@ -1,0 +1,321 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.top-bar{
+    background:#2d3329;
+    color: #ccc;
+    text-align:center;
+    padding:8px;
+    font-size:14px;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background-color: rgb(146, 144, 128);
+    box-shadow:0 2px 5px rgba(0,0,0,0.05);
+}
+
+.nav-links a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.nav-icons span{
+    margin-left:20px;
+    cursor:pointer;
+}
+
+
+.hero{
+    height:350px;
+    background:url('C:\Users\hp\Downloads\contact us bannerFashion Email Header.jpg') center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    color:white;
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    top:0;
+    left:0;
+}
+
+.hero-content{
+    position:relative;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:60px;
+    letter-spacing:2px;
+}
+
+.hero-content p{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+
+.info-section{
+    background:rgb(179, 156, 162);
+    padding:50px 10%;
+    text-align:center;
+}
+
+.info-box{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;
+}
+
+.info-item{
+    width:30%;
+}
+
+.info-item h3{
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+.info-item p{
+    font-size:14px;
+    color:#555;
+}
+
+.description{
+    max-width:800px;
+    margin:auto;
+    color:#262020;
+    line-height:1.6;
+}
+
+
+.contact-form{
+    background:#f9f9f9;
+    padding:50px 10%;
+}
+
+.contact-form h2{
+    margin-bottom:20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input, textarea{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:12px;
+    background:#5f6264;
+    color:rgb(196, 186, 186);
+    border:none;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#505b5e;
+}
+
+
+@media(max-width:768px){
+    .info-box{
+        flex-direction:column;
+    }
+    .info-item{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .hero-content h1{
+        font-size:40px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="top-bar">
+    Free Shipping on all orders €99+
+</div>
+
+<div class="navbar">
+    
+    <div class="nav-icons">
+        <span>Account</span>
+        <span>Search</span>
+        <span>Cart</span>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="hero-content">
+        <p>FOR BRIXTON ONLINE STORE INQUIRIES</p>
+        <h1>CONTACT US</h1>
+    </div>
+</section>
+
+<section class="info-section">
+    <div class="info-box">
+        <div class="info-item">
+            <h3>HOURS OF OPERATION</h3>
+            <p>9:00 to 17:00, Mon-Fri (Excluding Holidays)</p>
+        </div>
+
+        <div class="info-item">
+            <h3>PHONE</h3>
+            <p>+91 770-195-1851</p>
+        </div>
+
+        <div class="info-item">
+            <h3>GENERAL INQUIRIES</h3>
+            <p>piyushkashyap601@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="description">
+        <p>Our customer service team is waiting to assist you.</p>
+        <p>Please allow up to 2-Business days response time in order for us to fully address your inquiries.</p>
+        <p>You can also check your order status through our website.</p>
+    </div>
+</section>
+
+<section class="contact-form">
+    <h2>CONTACT FORM</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+</body>
+</html>
+
+
+
+<style>
+.banner{
+    background-image: url('C:\Users\hp\Downloads\strip.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.banner::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.content{
+    position:relative;
+    z-index:1;
+}
+
+
+
+
+
+
+
+.banner{
+    background-image: url('C:\Users\hp\Downloads\strip.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.banner::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.content{
+    position:relative;
+    z-index:1;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:red;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="banner">
+    <div class="content">
+        <h1>Build Your Dream Website</h1>
+        <button>Get Started</button>
+    </div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

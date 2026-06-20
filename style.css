@@ -1,0 +1,572 @@
+:root{
+  --bg-color: white;
+  --text-color: black;
+  --header-color: #f4f4f4;
+}
+
+
+.dark{
+  --bg-color: #111;
+  --text-color: white;
+  --header-color: #1f1f1f;
+}
+
+body{
+  margin:0;
+  font-family: Arial;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+
+header{
+  background: var(--header-color);
+  padding:15px;
+}
+
+
+nav a{
+  margin-right:15px;
+  text-decoration:none;
+  color: var(--text-color);
+}
+
+
+.container{
+  padding:40px;
+}
+
+
+button{
+  padding:10px 20px;
+  cursor:pointer;
+}
+
+ 
+ *{
+    padding :0%;
+    margin :0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+nav{
+    padding: -10px;
+    background-color: #193049;
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+nav ul li{
+    align-content: center;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #E0E0E0;
+    padding: 5px 10px;
+    border-radius: 5px;}
+nav ul li a:hover{
+    color: yellow
+}
+
+
+
+
+.raj{
+    position: absolute;
+    top: 94%;
+    left: 38%;
+    color: white;
+}
+
+.ram{
+    position: absolute;
+    top: 82%;
+    left: 37%;
+    color:rgb(255, 255, 255);
+    font-size: 54px;
+    font-family: cursive;
+}
+
+.dpk{
+    position: absolute;
+    top: 76%;
+    left: 22%;
+    color:white;
+    
+}
+
+.btn{
+    position: absolute;
+    left:42%;
+    top: 300px
+}
+
+
+
+
+
+
+
+.container{
+  position:relative;}
+.uday{
+  position: absolute;
+  top: 120%;
+  left:-2%;
+ }
+
+
+
+.raza{
+    position: absolute;
+    top:148%;
+    left:3.5%;
+ }
+
+.shiva{
+  position: absolute;
+  top: 120%;
+  left:10%;
+ }
+
+.reetik{
+    position: absolute;
+    top:148%;
+    left:16%;
+ }
+
+ .std{
+  position: absolute;
+  top: 120%;
+  left:22%;
+ }
+
+.chandan{
+    position: absolute;
+    top:148%;
+    left:29%;
+ }
+.sunny{
+  position: absolute;
+  top: 119%;
+  left:34%;
+ }
+
+.pratik{
+    position: absolute;
+    top:148%;
+    left:40%;
+ }
+ .monu{
+  position: absolute;
+  top: 120%;
+  left:46%;
+ }
+
+.prdip{
+    position: absolute;
+    top:148%;
+    left:53%;
+ }
+  .Ravi{
+  position: absolute;
+  top: 119%;
+  left:58%;
+ }
+
+.Raaj{
+    position: absolute;
+    top:148%;
+    left:64%;
+ }
+ .Ravi1{
+  position: absolute;
+  top: 120%;
+  left:70%;
+ }
+
+.Raaj1{
+    position: absolute;
+    top:148%;
+    left:76%;
+ }
+
+.Ravi2{
+  position: absolute;
+  top: 120%;
+  left:82%;
+ }
+
+.Raaj2{
+    position: absolute;
+    top:148%;
+    left:87%;
+ }
+
+
+
+.container{
+position:relative;}
+.pt{
+position: absolute;
+top: 8px;
+left:80px;
+}
+
+.tag{
+position: absolute;
+top: 10px;
+left: 10px;
+background: #f5e1c0;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.price-box{
+margin-top: 10px;
+
+}
+.price-box p{
+position: relative;
+color: gray;
+margin: 0px;
+left: 50px;
+top: -8px;
+
+}
+.price-box h2{
+left: -25px;
+top: -77px;
+}
+
+
+
+.container{
+position:relative;}
+.gt1{
+position: absolute;
+top: -43px;
+left:165px;
+}
+
+.tag1{
+position: absolute;
+top: 55px;
+left:75px;
+background: #f5e1c0;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.price-box1{
+position: absolute;
+margin-top: 10px;
+
+}
+.price-box1 p{
+position: relative;
+color: gray;
+margin: 0px;
+left: 280px;
+top: -72px;
+}
+.price-box1 h2{
+position: relative;
+margin: 5px 0;
+left: 260px;
+top: -77px;
+}
+
+
+
+.container{
+position:relative;}
+.gt2{
+position: absolute;
+top: -50px;
+left:400px;
+}
+
+.tag2{
+position: absolute;
+top: 60px;
+left:66px;
+background: #f5e1c0;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.price-box2{
+position: absolute;
+margin-top: 10px;
+
+}
+.price-box2 p{
+position: relative;
+color: gray;
+margin: 0px;
+left: 510px;
+top: -72px;
+}
+.price-box2 h2{
+position: relative;
+margin: 5px 0;
+left: 490px;
+top: -77px;
+}
+
+
+
+.container{
+position:relative;}
+.gt3{
+position: absolute;
+top: -36px;
+left: 450px;
+}
+
+.tag3{
+position: absolute;
+top: 45px;
+left: 255px;
+background: #f5e1c0;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.price-box3{
+position: absolute;
+margin-top: 10px;
+
+}
+.price-box3 p{
+position: relative;
+color: gray;
+margin: 0px;
+left: 750px;
+top: -91px;
+}
+.price-box3 h2{
+position: relative;
+margin: 5px 0;
+left: 730px;
+top: -95px;
+}
+
+
+.container{
+position:relative;}
+.gt4{
+position: absolute;
+top: -36px;
+left: 800px;
+}
+
+.tag4{
+position: absolute;
+top: 45px;
+left: 142px;
+background: #f5e1c0;
+padding: 5px 10px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+.price-box4{
+position: absolute;
+margin-top: 10px;
+
+}
+.price-box4 p{
+position: relative;
+color: gray;
+margin: 0px;
+left: 990px;
+top: -115px;
+}
+.price-box4 h2{
+position: relative;
+margin: 5px 0;
+left: 970px;
+top: -120px;
+}
+
+
+
+
+/* SEARCH BAR */
+.search-bar {
+    position: absolute;
+    left: 50px;
+    top: 220px;
+  background: #0a0f2c;
+  width: 990px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background: #ff4d4d;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* DESTINATIONS */
+.destinations {
+    position: absolute;
+  text-align: center;
+  padding: 50px 20px;
+  left: 70px;
+  width: 970px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: white;
+}
+
+.card-text span {
+  background: #00bfa6;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.footer{
+    position: absolute;
+background:#333;
+width:1345px;
+top: 110px;
+left: -80px;
+color:white;
+padding:60px 0;
+margin-top: 500px;
+}
+
+.footer-container{
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+}
+
+.footer-box{
+width:30%;
+}
+
+.footer-box h3{
+margin-bottom:20px;
+font-size:18px;
+}
+
+.footer-box ul{
+list-style:none;
+}
+
+.footer-box ul li{
+margin:10px 0;
+}
+
+.footer-box ul li a{
+text-decoration:none;
+color:#ccc;
+}
+
+.footer-box ul li a:hover{
+color:white;
+}
+
+.footer-box input{
+width:100%;
+padding:10px;
+border:none;
+outline:none;
+}
+
+.footer-box button{
+padding:10px 25px;
+border:2px solid white;
+background:transparent;
+color:white;
+border-radius:25px;
+cursor:pointer;
+}
+
+.footer-box button:hover{
+background:white;
+color:black;
+}
+
+.social-icons span{
+margin-right:15px;
+font-size:20px;
+cursor:pointer;
+}
+
+
+.ppt h3{
+  position: absolute;
+margin-bottom:20px;
+font-size:18px;
+}
