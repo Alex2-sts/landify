@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help Center</title>
+  </head>
+  <body>
+  <div class="rahul">
+    <h1>How can we help your travel?</h1><br>
+    <div class="search-box">
+      <input type="text" placeholder="Type your question">
+      🔍
+    </div>
+  </div>
+
+
+  <div class="help-bar">
+    <p>Facing issues with your trip? Contact our Travel support team.</p>
+    <button>Get Travel Helps</button>
+  </div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <div>Planning a Trip</div>
+    <div>During Travel</div>
+  </div>
+
+  <!-- FEATURED ARTICLES -->
+  <div class="section">
+    <h2>Travel FAQ</h2>
+
+    <div class="articles">
+
+      <div class="article">
+        <small>Travel Planning</small>
+        <h4>How to plan your first trip?</h4>
+      </div>
+
+      <div class="article">
+        <small>Bookings</small>
+        <h4>How to check flight or hotel status?</h4>
+      </div>
+
+      <div class="article">
+        <small>Support</small>
+        <h4>How to Contact travel support?</h4>
+      </div>
+
+      <div class="article">
+        <small>Destinations</small>
+        <h4>Best places to visit in summer</h4>
+      </div>
+
+      <div class="article">
+        <small>Issues</small>
+        <h4>What to do if flight is delayed</h4>
+      </div>
+
+      <div class="article">
+        <small>Payments</small>
+        <h4>How to use travel coupns?</h4>
+      </div>
+
+      <div class="article">
+        <small>Search</small>
+        <h4>How to find best travel deals?</h4>
+      </div>
+
+      <div class="article">
+        <small>After Booking</small>
+        <h4>How to change travel dates?</h4>
+      </div>
+
+      <div class="article">
+        <small>Safety</small>
+        <h4>Travel safety tips for beginners</h4>
+      </div>
+
+    </div>
+
+    <div class="shop">
+      <h2>Travel Services</h2>
+
+      <div class="shop-grid">
+
+        <div class="shop-item">
+          <div class="icon">✈️</div>
+          <h4>Flights</h4>
+          <p>Book Flights <br>Check Status<br>Flight Deals</p>
+        </div>
+
+        <div class="shop-item">
+          <div class="icon">🏨</div>
+          <h4>Hotels</h4>
+          <p>Find Hotels<br>Best Prices<br>Reviews</p>
+        </div>
+
+        <div class="shop-item">
+          <div class="icon">🧳</div>
+          <h4>Packages</h4>
+          <p>Holiday Packages<br>Tour Plans<br>Custom Trips</p>
+        </div>
+
+        <div class="shop-item">
+          <div class="icon">👤</div>
+          <h4>Account</h4>
+          <p>Login<br>Settings<br>Support</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+    }
+
+    .rahul {
+      position: absolute;
+      background: linear-gradient(to right, #2c2f5c, #1d2245);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+
+    .search-box {
+      background: white;
+      border-radius: 30px;
+      padding: 10px 20px;
+      width: 400px;
+      max-width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .help-bar {
+      background: #dfe7ef;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .help-bar button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid #333;
+      background: white;
+      cursor: pointer;
+    }
+
+    /* TABS */
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    /* FEATURED ARTICLES */
+    .section {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+
+    .article {
+      font-size: 14px;
+    }
+
+    .article small {
+      color: gray;
+    }
+
+    .article h4 {
+      margin-top: 5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    /* SHOP SECTION */
+    .shop {
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 30px;
+    }
+
+    .shop-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .shop-item {
+      padding: 20px;
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .shop-item h4 {
+      margin-bottom: 10px;
+    }
+
+    .shop-item p {
+      font-size: 14px;
+      color: gray;
+      line-height: 1.6;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width: 900px) {
+      .articles {
+        grid-template-columns: 1fr;
+      }
+
+      .shop-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+ 
